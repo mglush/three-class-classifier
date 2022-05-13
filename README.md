@@ -4,10 +4,10 @@ A 3-class classifier that works with any amount of data points in each class, an
 \
   Input: two text files, one containing the training data, one containing the testing data.\
   Output: A dictionary containing the true positive rate,  false positive rate, error rate, accuracy, and precision of the classifier for the given test data:\
-          {
-            "tpr": ______________,
-            "fpr": ______________,
-            "error_rate": _______,
-            "accuracy": _________,
-            "precision": ________
+          {\
+            "tpr": -----------------,\
+            "fpr": -----------------,\
+            "error_rate": ----------,\
+            "accuracy": ------------,\
+            "precision": -----------,\
           }
