@@ -122,5 +122,5 @@ if __name__ == "__main__":
     training_input = parse_file(sys.argv[1])
     testing_input = parse_file(sys.argv[2])
 
-    run_train_test(training_input, testing_input)
+    print(run_train_test(training_input, testing_input))
 
