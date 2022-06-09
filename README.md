@@ -11,7 +11,7 @@
 
 ## How to Run
 ~~~
-git clone https://github.com/mglush/three-class-classifier    # clone repository.
+git clone git@github.com:mglush/three-class-classifier.git    # clone repository.
 cd three-class-classifier                                     # enter repo folder.
 python hw2.py training_filename testing_filename              # run file on a training/testing file input pair.
 ~~~
@@ -22,7 +22,8 @@ Two text files, one containing the training data, one containing the testing dat
 
 **Output**:\
 A dictionary containing the true positive rate,  false positive rate, error rate, accuracy, and precision of the classifier for the given test data.\
-Example:\
+
+**Example**:\
 {\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tpr": _____,\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fpr": _____,\
