@@ -4,7 +4,7 @@
 A 3-class classifier that works with any amount of data points in each class, and any number of features per data point.\
 
 **Input**:\
-Two text files, one containing the training data, one containing the testing data.
+Two text files, one containing the training data, one containing the testing data. Check data/training*.txt for format examples.
 
 **Output**:\
 A dictionary containing the true positive rate,  false positive rate, error rate, accuracy, and precision of the classifier for the given test data.\
